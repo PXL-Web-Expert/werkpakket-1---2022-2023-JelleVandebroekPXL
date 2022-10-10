@@ -1,0 +1,33 @@
+$color-primary: #3772FF;
+$color-secondary: #DF2935;
+$color-tertiary: #FDCA40;
+$color-text: #E6E8E6;
+$color-quinary: #080708;
+$color-hover: #0E1D40;
+
+$font-montserrat: 'Montserrat';
+
+@mixin ul 
+{
+    list-style-type: none;
+    text-align: center;
+}
+
+@mixin li($width,$margin)
+{
+    background-color: $color-primary;
+    height: 10%;
+    width: $width;   
+    margin: $margin;
+    float: left; 
+    color: $color-text;
+}
+
+@mixin a 
+{
+    display: block;
+    text-decoration: none;
+    color: $color-text;
+    width: 100%;
+    height: 100%;
+}

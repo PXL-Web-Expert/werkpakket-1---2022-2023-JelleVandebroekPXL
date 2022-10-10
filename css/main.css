@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat"; }
+
+nav {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: auto; }
+  nav ul {
+    list-style-type: none;
+    text-align: center; }
+    nav ul li {
+      background-color: #3772FF;
+      height: 10%;
+      width: 23%;
+      margin: 0 0.9%;
+      float: left;
+      color: #E6E8E6; }
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: #E6E8E6;
+        width: 100%;
+        height: 100%; }
+        nav ul li a:hover {
+          background-color: #0E1D40; }
+
+.items {
+  height: 100px; }
+
+.lijst {
+  height: 300px; }
+
+.intro {
+  height: 400px;
+  margin: 35px 0;
+  width: 100%;
+  display: flex;
+  background-color: #696969; }
+  .intro p {
+    font-family: "Montserrat";
+    font-size: 80px;
+    margin-left: 10%;
+    width: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .intro img {
+    padding: 0;
+    width: 40%;
+    margin-left: 10%;
+    margin-right: 5%; }
+
+.zoek {
+  width: 87.5%;
+  font-size: 30px;
+  border: 5px solid black;
+  margin: 0 2.5%; }
+
+.knop {
+  width: 35%;
+  margin-left: 5%;
+  margin-right: 8%;
+  font-size: 30px;
+  font-family: "Montserrat"; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 2%;
+  padding: 10px;
+  height: 100%; }
+  .grid-container div {
+    text-align: center;
+    height: 100%; }
+  .grid-container .empty {
+    background-color: #ffffff; }
+  .grid-container .item {
+    border: 3px solid #DF2935;
+    width: 75%;
+    height: 400px; }
+    .grid-container .item img {
+      width: 100%; }
+    .grid-container .item p {
+      font-family: "Montserrat";
+      font-size: 30px;
+      font-weight: bold; }
+    .grid-container .item button {
+      margin-top: 5%;
+      background-color: #FDCA40;
+      border-radius: 15%;
+      height: 40px;
+      width: 150px;
+      border: 2px solid #000000; }
+      .grid-container .item button a {
+        text-decoration: none; }
+        .grid-container .item button a:hover {
+          background-color: #3acd97; }
+  .grid-container .info1 {
+    border: 3px solid #DF2935;
+    width: 55%;
+    height: 400px; }
+    .grid-container .info1 img {
+      width: 100%; }
+  .grid-container .info2 {
+    margin-left: -75%; }
+    .grid-container .info2 h1 {
+      font-size: 65px; }
+    .grid-container .info2 h3 {
+      font-size: 35px; }
+    .grid-container .info2 p {
+      margin-top: 20px;
+      color: red;
+      font-size: 25px;
+      font-family: "Montserrat";
+      font-weight: bold; }
+    .grid-container .info2 ul {
+      margin-top: 40px;
+      margin-left: 410px;
+      list-style-type: none;
+      text-align: center; }
+      .grid-container .info2 ul li {
+        float: left;
+        border: 3px solid black;
+        padding: 2%; }
+    .grid-container .info2 button {
+      margin-top: 120px;
+      width: 45%; }
+
+.contact_titel {
+  text-align: center;
+  font-size: 45px; }
+
+.contact_text {
+  text-align: center;
+  font-size: 25px;
+  margin: 0 20%; }
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 30% 0 30%; }
+
+label {
+  width: 40%;
+  margin: 1%;
+  padding: 5px 0; }
+
+input {
+  width: 40%;
+  margin: 1%;
+  padding: 5px; }
+
+input#mailadres {
+  width: 80%; }
+
+#opmerking {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 5%; }
+
+footer {
+  background-color: #3772FF;
+  height: 10%;
+  width: 100%;
+  overflow: auto; }
+  footer ul {
+    list-style-type: none;
+    text-align: center; }
+    footer ul li {
+      background-color: #3772FF;
+      height: 10%;
+      width: 31%;
+      margin: 0 1%;
+      float: left;
+      color: #E6E8E6; }
+      footer ul li a {
+        display: block;
+        text-decoration: none;
+        color: #E6E8E6;
+        width: 100%;
+        height: 100%; }
+        footer ul li a:hover {
+          background-color: #0E1D40; }

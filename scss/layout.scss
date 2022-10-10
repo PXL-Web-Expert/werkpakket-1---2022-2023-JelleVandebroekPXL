@@ -1,0 +1,238 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: $font-montserrat;
+}
+nav
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    ul
+    {
+        @include ul;
+        li
+        {
+            @include li(23%, 0 0.9%);
+            a
+            {
+                @include a;
+                &:hover
+                {
+                    background-color: $color-hover;
+                }
+            }        
+        }
+    }
+}
+.items
+{
+    height: 100px;
+}
+.lijst
+{
+    height: 300px;
+}
+.intro
+{
+    height: 400px;
+    margin: 35px 0;
+    width: 100%;
+    display: flex;
+    background-color: #696969;
+    p 
+    {
+        font-family: $font-montserrat;
+        font-size: 80px;
+        margin-left: 10%;
+        width: 50%;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img
+    {
+        padding: 0;
+        width: 40%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}
+.zoek
+{
+    width: 87.5%;
+    font-size: 30px;
+    border: 5px solid black;
+    margin: 0 2.5%; 
+}
+.knop
+{
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 8%;
+    font-size: 30px;
+    font-family: $font-montserrat;
+}
+.grid-container
+{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    gap: 2%;
+    padding: 10px;
+    height: 100%;
+    div
+    {
+        text-align: center;
+        height: 100%;
+    }
+    .empty
+    {
+        background-color: #ffffff;
+
+    }
+    .item
+    {
+        border: 3px solid $color-secondary;
+        width: 75%;
+        height: 400px;
+        img
+        {
+            width: 100%;
+        }
+        p
+        {
+            font-family: $font-montserrat;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        button
+        {
+            margin-top: 5%;
+            background-color: $color-tertiary;
+            border-radius: 15%;
+            height: 40px;
+            width: 150px;
+            border: 2px solid #000000;
+            a
+            {
+                text-decoration: none;
+                &:hover
+                {
+                background-color: #3acd97;
+                }
+            }
+        }
+    }
+    .info1
+    {
+        border: 3px solid $color-secondary;
+        width: 55%;
+        height: 400px;
+        img
+        {
+            width: 100%;
+        }
+    }
+    .info2
+    {
+        margin-left: -75%;
+        h1
+        {
+            font-size: 65px;
+        }
+        h3
+        {
+            font-size: 35px;
+        }
+        p 
+        {
+            margin-top: 20px;
+            color: red;
+            font-size: 25px;
+            font-family: $font-montserrat;
+            font-weight: bold;
+        }
+        ul
+        {
+            margin-top: 40px;
+            margin-left: 410px;
+            @include ul;
+            li 
+            {
+                float: left;
+                border: 3px solid black;
+                padding: 2%;
+            }
+        }
+        button
+        {
+            margin-top: 120px;
+            width: 45%;
+        }
+    }
+}
+.contact_titel
+{
+    text-align: center;
+    font-size: 45px;
+}
+.contact_text
+{
+    text-align: center;
+    font-size: 25px;
+    margin: 0 20%;
+}
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 30% 0 30%;
+}
+label
+{
+    width: 40%;
+    margin: 1%;
+    padding: 5px 0;
+}
+input
+{
+    width: 40%;
+    margin: 1%;
+    padding: 5px;
+}
+input#mailadres
+{
+    width: 80%;
+}
+#opmerking
+{
+    width: 80%;
+    height: 100px;
+    margin-bottom: 5%;
+}
+footer
+{
+    background-color: $color-primary;
+    height: 10%;
+    width: 100%;
+    overflow: auto;
+    ul
+    {
+       @include ul;
+        li
+        {
+            @include li(31%, 0 1%);
+            a
+            {
+                @include a;
+                &:hover
+                {
+                    background-color: $color-hover;
+                }
+            }        
+        }
+    }
+}

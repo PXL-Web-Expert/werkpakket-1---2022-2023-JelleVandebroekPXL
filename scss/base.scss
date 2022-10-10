@@ -1,16 +1,21 @@
 $color-primary: #3772FF;
-$color-secondary: #DF2935;
-$color-tertiary: #FDCA40;
-$color-text: #E6E8E6;
-$color-quinary: #080708;
+$color-secondary: #2ACCF6;
+$color-tertiary: #2481D4;
+$color-text: #ffffff;
+$color-quinary: #ACEBF2;
 $color-hover: #0E1D40;
 
 $font-montserrat: 'Montserrat';
+
+$font-sm: 20px;
+$font-md: 40px;
+$font-lg: 60px;
 
 @mixin ul 
 {
     list-style-type: none;
     text-align: center;
+    font-size: $font-md;
 }
 
 @mixin li($width,$margin)

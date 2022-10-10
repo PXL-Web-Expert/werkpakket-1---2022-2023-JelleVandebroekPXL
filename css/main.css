@@ -10,18 +10,19 @@ nav {
   overflow: auto; }
   nav ul {
     list-style-type: none;
-    text-align: center; }
+    text-align: center;
+    font-size: 40px; }
     nav ul li {
       background-color: #3772FF;
       height: 10%;
       width: 23%;
       margin: 0 0.9%;
       float: left;
-      color: #E6E8E6; }
+      color: #ffffff; }
       nav ul li a {
         display: block;
         text-decoration: none;
-        color: #E6E8E6;
+        color: #ffffff;
         width: 100%;
         height: 100%; }
         nav ul li a:hover {
@@ -38,7 +39,7 @@ nav {
   margin: 35px 0;
   width: 100%;
   display: flex;
-  background-color: #696969; }
+  background-color: #2ACCF6; }
   .intro p {
     font-family: "Montserrat";
     font-size: 80px;
@@ -79,28 +80,28 @@ nav {
   .grid-container .empty {
     background-color: #ffffff; }
   .grid-container .item {
-    border: 3px solid #DF2935;
+    background-color: #2481D4;
     width: 75%;
     height: 400px; }
     .grid-container .item img {
-      width: 100%; }
+      margin-top: 5%;
+      width: 90%; }
     .grid-container .item p {
       font-family: "Montserrat";
       font-size: 30px;
       font-weight: bold; }
     .grid-container .item button {
       margin-top: 5%;
-      background-color: #FDCA40;
+      background-color: #ACEBF2;
       border-radius: 15%;
       height: 40px;
-      width: 150px;
-      border: 2px solid #000000; }
+      width: 150px; }
       .grid-container .item button a {
         text-decoration: none; }
         .grid-container .item button a:hover {
           background-color: #3acd97; }
   .grid-container .info1 {
-    border: 3px solid #DF2935;
+    border: 3px solid #2ACCF6;
     width: 55%;
     height: 400px; }
     .grid-container .info1 img {
@@ -121,7 +122,8 @@ nav {
       margin-top: 40px;
       margin-left: 410px;
       list-style-type: none;
-      text-align: center; }
+      text-align: center;
+      font-size: 40px; }
       .grid-container .info2 ul li {
         float: left;
         border: 3px solid black;
@@ -169,19 +171,42 @@ footer {
   overflow: auto; }
   footer ul {
     list-style-type: none;
-    text-align: center; }
+    text-align: center;
+    font-size: 40px; }
     footer ul li {
       background-color: #3772FF;
       height: 10%;
       width: 31%;
       margin: 0 1%;
       float: left;
-      color: #E6E8E6; }
+      color: #ffffff; }
       footer ul li a {
         display: block;
         text-decoration: none;
-        color: #E6E8E6;
+        color: #ffffff;
         width: 100%;
         height: 100%; }
         footer ul li a:hover {
           background-color: #0E1D40; }
+
+@media screen and (max-width: 900px) {
+  .intro p {
+    font-size: 50px; }
+  .intro img {
+    visibility: hidden; }
+  .grid-container .item {
+    height: 300px; } }
+
+@media screen and (max-width: 600px) {
+  .intro p {
+    font-size: 40px; }
+  .intro img {
+    visibility: hidden; }
+  .grid-container .item {
+    height: 200px; }
+    .grid-container .item p {
+      font-size: 15px; }
+    .grid-container .item button {
+      width: 100px; }
+  label, input {
+    width: 100%; } }

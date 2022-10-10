@@ -1,0 +1,54 @@
+@media screen and (max-width: 900px)
+{
+    .intro
+    {
+        p
+        {
+            font-size: 50px;
+        }
+        img
+        {
+            visibility: hidden;
+        }
+    }
+    .grid-container
+    {
+        .item
+        {
+            height: 300px;
+        }
+    }
+}
+@media screen and (max-width: 600px)
+{
+    .intro
+    {
+        p 
+        {
+            font-size: 40px;
+        }
+        img
+        {
+            visibility: hidden
+        }
+    }
+    .grid-container
+    {
+        .item
+        {
+            height: 200px;
+            p
+            {
+                font-size: 15px;
+            }
+            button
+            {
+                width: 100px;
+            }
+        }
+    }
+    label, input
+    {
+        width: 100%;
+    }
+}

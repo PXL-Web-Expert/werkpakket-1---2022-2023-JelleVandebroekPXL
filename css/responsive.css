@@ -1,0 +1,21 @@
+@media screen and (max-width: 900px) {
+  .intro p {
+    font-size: 50px; }
+  .intro img {
+    visibility: hidden; }
+  .grid-container .item {
+    height: 300px; } }
+
+@media screen and (max-width: 600px) {
+  .intro p {
+    font-size: 40px; }
+  .intro img {
+    visibility: hidden; }
+  .grid-container .item {
+    height: 200px; }
+    .grid-container .item p {
+      font-size: 15px; }
+    .grid-container .item button {
+      width: 100px; }
+  label, input {
+    width: 100%; } }
